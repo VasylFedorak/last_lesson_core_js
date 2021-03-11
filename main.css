@@ -184,7 +184,7 @@
 }
 
 .modal {
-  width: 40%;
+  width: 45%;
   height: 250px;
   background-color: rgb(214, 214, 214);
   border: 2px solid grey;
@@ -198,7 +198,7 @@
 .modal_result {
   display: none;
   width: 40%;
-  height: 150px;
+  height: 180px;
   background-color: rgb(214, 214, 214);
   border: 2px solid grey;
   border-radius: 8px;
@@ -208,6 +208,7 @@
   padding-top: 30px;
   text-align: center;
 }
+
 
 .new_game {
   color: rgb(255, 255, 255);
@@ -226,6 +227,8 @@
   text-align: center;
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
+  display: flex;
+  padding: 10px;
 
 }
 

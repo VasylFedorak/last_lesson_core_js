@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson17</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="timer">01:00</div>
+      <div class="buttons">
+        <button class="btn start">Start Game!</button>
+        <button class="btn check">Check result</button>
+        <button class="btn game">New Game</button>
+      </div>
+      <div class="box_container">
+        <div id="start" class="box">
+          <div class="partial one">1</div>
+          <div class="partial two">2</div>
+          <div class="partial three">3</div>
+          <div class="partial four">4</div>
+          <div class="partial five">5</div>
+          <div class="partial six">6</div>
+          <div class="partial seven">7</div>
+          <div class="partial eight">8</div>
+          <div class="partial nine">9</div>
+          <div class="partial ten">10</div>
+          <div class="partial eleven">11</div>
+          <div class="partial twelve">12</div>
+          <div class="partial thirteen">13</div>
+          <div class="partial fourteen">14</div>
+          <div class="partial fifteen">15</div>
+          <div class="partial sixteen">16</div>
+        </div>
+        <div id="drop" class="box"></div>
+      </div>
+    </div>
+    <div class="modal_box">
+      <div class="modal">
+        <div class="modal_message">
+          Are You sure, You still have time?
+          <span class="second_timer">01:00</span>
+        </div>
+        <div class="modal_buttons">
+          <button class="mbtn r">Close</button
+          ><button class="mbtn g">Check</button>
+        </div>
+      </div>
+      <div class="modal_result">
+        <div class="modal_result_message"></div>
+        <button class="new_game">Все спочатку</button>
+      </div>
+    </div>
+
+    <script src="./jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: antiquewhite;
+  padding: 50px;
+}
+
+.timer {
+  width: 30%;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.buttons {
+  width: 50%;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: 150px;
+  background-color: red;
+  border-radius: 8px;
+  border: transparent;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.btn:not(:last-child) {
+  margin-right: 15px;
+}
+
+.box_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 260px;
+  height: 300px;
+  background-color: grey;
+
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.box:not(:last-child) {
+  margin-right: 100px;
+}
+
+.partial {
+  width: 65px;
+  height: 75px;
+  border: 1px solid black;
+  color: transparent;
+}
+
+.one {
+  background-image: url(./images/row-1-col-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.two {
+  background-image: url(./images/row-1-col-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.three {
+  background-image: url(./images/row-1-col-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.four {
+  background-image: url(./images/row-1-col-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.five {
+  background-image: url(./images/row-2-col-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.six {
+  background-image: url(./images/row-2-col-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.seven {
+  background-image: url(./images/row-2-col-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.eight {
+  background-image: url(./images/row-2-col-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nine {
+  background-image: url(./images/row-3-col-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ten {
+  background-image: url(./images/row-3-col-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.eleven {
+  background-image: url(./images/row-3-col-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.twelve {
+  background-image: url(./images/row-3-col-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.thirteen {
+  background-image: url(./images/row-4-col-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fourteen {
+  background-image: url(./images/row-4-col-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fifteen {
+  background-image: url(./images/row-4-col-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sixteen {
+  background-image: url(./images/row-4-col-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.modal_box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+.modal {
+  width: 40%;
+  height: 250px;
+  background-color: rgb(214, 214, 214);
+  border: 2px solid grey;
+  border-radius: 8px;
+  font-size: 24px;
+  color: beige;
+  margin: 150px auto;
+  padding-top: 30px;
+}
+
+.modal_result {
+  display: none;
+  width: 40%;
+  height: 150px;
+  background-color: rgb(214, 214, 214);
+  border: 2px solid grey;
+  border-radius: 8px;
+  font-size: 24px;
+  color: beige;
+  margin: 150px auto;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.new_game {
+  color: rgb(255, 255, 255);
+  background-color: rgb(151, 146, 146);
+  width: 120px;
+  height: 40px;
+  background-origin: 2px solid black;
+  border-radius: 6px;
+  margin-top: 20px;
+
+}
+
+.modal_message {
+  height: 120px;
+  line-height: 120px;
+  text-align: center;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+
+}
+
+.modal_buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.mbtn {
+  width: 60px;
+  height: 40px;
+  border: 2px solid grey;
+  border-radius: 6px;
+}
+
+.mbtn:not(:last-child) {
+  margin-right: 20px;
+}
+
+.r {
+  background-color: red;
+}
+
+.g {
+  background-color: green;
+}
